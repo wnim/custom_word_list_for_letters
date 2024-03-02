@@ -86,7 +86,7 @@ class MainAlgorithm:
         highest_score = 0
         curr_word_length = 0
         curr_score = 0
-        word_to_return = "goo"
+        word_to_return = ""
         for word in self.input_words_list:
             curr_score = self.get_word_score(word)
             curr_word_length = len(word)
